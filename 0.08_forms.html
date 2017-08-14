@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Forms</title>
+	</head>
+	<body>
+		<h1>Forms</h1>
+
+		<form>
+			<div>
+				<label for="email">Email:</label>
+				<!-- Requires an @ symbol -->
+				<input type="email" name="email" id="email">
+			</div>			
+			<div>
+				<label for="password">Password:</label>
+				<!-- Disguises characters for privacy -->
+				<input type="password" name="password" id="password">
+			</div>
+
+			<input type="submit" value="Submit">
+		</form>
+		<br>
+
+		<form>
+			<!-- Builds the border -->
+			<fieldset>
+				<!-- Whatever's the title of Legend becomes the title of the box -->
+				<legend>Information</legend>
+				<div>
+					<label for="name">Name:</label>
+					<input type="text" name="name" id="name">
+				</div>			
+				<div>
+					<label for="phone">Phone:</label>
+					<input type="tel" name="phone" id="phone">
+				</div>
+				<div>
+					<label for="over">Is over 18:</label>
+					<!-- Becomes a button -->
+					<input type="radio" name="over" id="over">
+				</div>
+			</fieldset>
+		</form>
+	</body>
+</html>
