@@ -1,4 +1,27 @@
-p {
+/*p {
 	color: #0b07f2;
 	font-size: 50px;
+}*/
+
+.div-1 {
+	 background-color: #6d3232; 
+	 padding: 20px;
+}
+
+.div-1 p {
+	color: white;
+}
+
+.div-2 {
+	background-color: #e8bbbb; 
+	padding: 10px;
+}
+
+.div-3 {
+	background-color: #b76666; 
+	padding: 30px;
+}
+
+.div-3 p {
+	color: white;
 }
