@@ -6,6 +6,20 @@
 		<title>Hello World</title>
 	</head>
 	<body>
-		<h1 style="color:lightgrey; font-size:50px"; class="blink">Hello World!</h1>
+		<h1 style="color:#4286f4; font-size:50px"; class="blink">Hello World!</h1>
 	</body>
+
+	<style type="text/css">
+		@-webkit-keyframes blink {
+			0% {opacity: 0} 50% {
+				opacity: 0
+			}
+		}
+
+		.blink {
+			-webkit-animation: blink 0.3s infinite linear alternate;
+			font-size: 100px;
+		}
+
+	</style>
 </html>
